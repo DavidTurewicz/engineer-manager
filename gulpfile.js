@@ -2,7 +2,7 @@ const gulp = require('gulp');
 const jsonlint = require('gulp-jsonlint');
 const jshintStyle = require('jshint-stylish');
 
-// JSON lint
+// JSON lint blabla
 gulp.task('jsonlint', function() {
    return gulp.src(['./content/*.json', './*.json'])
      .pipe(jsonlint())
